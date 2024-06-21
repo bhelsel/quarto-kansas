@@ -1,0 +1,50 @@
+
+/* Title Block */
+
+.quarto-title-block .quarto-title-banner {
+  background-image: url('../logos/KUADRC.png');
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 20vh;
+  
+  
+}
+
+/* Fonts */
+
+h1.title {
+  font-size: 54px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+  font-size: 26px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+
+
+/* Meta data */
+
+.quarto-title-meta-heading {
+  font-size: 18px !important;
+  font-family: 'Times New Roman', Times, serif;
+  color: #0051ba;
+  font-weight: bold !important;
+}
+
+.abstract .block-title {
+  font-size: 18px !important;
+  font-family: 'Times New Roman', Times, serif;
+  color: #0051ba;
+  font-weight: bold !important;
+}
+
+.keywords .block-title {
+  font-size: 18px !important;
+  font-family: 'Times New Roman', Times, serif;
+  color: #0051ba;
+  font-weight: bold !important;
+}
