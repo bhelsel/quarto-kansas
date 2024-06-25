@@ -1,0 +1,54 @@
+% load packages
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{eso-pic}
+\usepackage{fancyhdr}
+\usepackage{sectsty}
+\usepackage{fontspec}
+\usepackage{titlesec}
+
+%% Set page size with a wider right margin
+\geometry{a4paper, total={170mm,257mm}, left=50mm, top=20mm, bottom=20mm, right=20mm}
+
+%% Let's define some colours
+\definecolor{kansasblue}{HTML}{0051ba}
+\definecolor{codeblock}{HTML}{E6E6FA}
+\definecolor{highlight}{HTML}{800080}
+\definecolor{kansasred}{HTML}{e8000d}
+
+%% Let's add the border on the right hand side and the logo in the top right corner
+\AddToShipoutPicture{%
+    % Right bar
+    \AtPageLowerLeft{%
+        \put(\LenToUnit{\dimexpr\paperwidth-210mm}, 0){%
+            \color{kansasblue}\rule{3cm}{\LenToUnit\paperheight}%
+        }%
+    }%
+    % Logo
+    \AtPageLowerLeft{%
+        \put(\LenToUnit{\dimexpr\paperwidth-207mm}, 26.2cm){%
+            \color{kansasblue}\includegraphics[width=2.5cm]{_extensions/kansas/logos/KansasJayhawk.png}
+        }%
+    }%
+}
+
+%% Style the page number
+\fancypagestyle{mystyle}{
+  \fancyhf{}
+  \renewcommand\headrulewidth{0pt}
+  \fancyfoot[L]{
+    \textcolor{white}{
+        \fontsize{16}{16}\selectfont
+        \thepage
+        }
+  }
+  \fancyfootoffset{3.5cm}
+}
+\setlength{\footskip}{20pt}
+
+%% style the chapter/section fonts
+\chapterfont{\color{kansasred}\fontsize{20}{16.8}\selectfont}
+\sectionfont{\color{kansasred}\fontsize{20}{16.8}\selectfont}
+\titleformat{\subsection}
+    {\color{kansasred}\sffamily\fontsize{14}{16.8}\selectfont\bfseries}
+    {\thesection}{1em}{}[{\color{black}\titlerule[1.5pt]}]
