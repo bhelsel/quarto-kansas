@@ -1,8 +1,9 @@
 ---
 title: Kansas Template
-subtitle: Test My Subtitle
+subtitle: My Subtitle
 format:
   kansas-pdf: default
+  kansas-html: default
 author:
   - name: Brian C. Helsel
     email: bhelsel@kumc.edu

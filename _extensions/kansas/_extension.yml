@@ -8,29 +8,17 @@ contributes:
       embed-resources: true
       date-format: long
     pdf:
+      template-partials:
+        - "pdf/title.tex"
       include-in-header:
         - "pdf/mytemplate.tex"
       include-before-body:
         - "pdf/pagestyle.tex"
-      template-partials:
-        - "pdf/title.tex"
-        - "pdf/before-body.tex"
-      toc: false
       code-block-bg: codeblock
       linkcolor: highlight
       urlcolor: highlight
     html:
-      mainfont: Roboto
-      sansfont: Source Sans 3
-      fontcolor: "#000"
+      mainfont: Times 
       title-block-banner: true
-      title-block-banner-color: "#ffc82d"
-      backgroundcolor: "#F5F4F2"
-      reference-location: margin
-      fig-cap-location: top
-      anchor-sections: true
-      smooth-scroll: true
-      footnotes-hover: true
-      number-sections: false
-      theme: default
       css: html/custom.css
+      code-block-bg: "#E6E6FA"
