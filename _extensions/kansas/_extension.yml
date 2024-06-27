@@ -17,6 +17,8 @@ contributes:
       code-block-bg: codeblock
       linkcolor: highlight
       urlcolor: highlight
+    docx:
+      reference-doc: "docx/word-template.docx"
     html:
       mainfont: Times 
       title-block-banner: true

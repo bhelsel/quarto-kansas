@@ -3,6 +3,7 @@ title: Kansas Template
 subtitle: My Subtitle
 format:
   kansas-pdf: default
+  kansas-docx: default
   kansas-html: default
 author:
   - name: Brian C. Helsel
