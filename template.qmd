@@ -5,6 +5,7 @@ format:
   kansas-pdf: default
   kansas-docx: default
   kansas-html: default
+  kansas-pptx: default
 author:
   - name: Brian C. Helsel
     email: bhelsel@kumc.edu
@@ -68,6 +69,7 @@ You can learn more about controlling the appearance of HTML output here: <https:
 This is what a code block looks like:
 
 ```{r sample}
+#| echo: true
 
 x <- 1
 y <- 2

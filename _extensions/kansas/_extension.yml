@@ -24,3 +24,5 @@ contributes:
       title-block-banner: true
       css: html/custom.css
       code-block-bg: "#E6E6FA"
+    pptx:
+      reference-doc: "pptx/powerpoint-template.pptx"
