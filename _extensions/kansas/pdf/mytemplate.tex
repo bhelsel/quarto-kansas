@@ -8,7 +8,7 @@
 \usepackage{titlesec}
 
 %% Set page size with a wider right margin
-\geometry{a4paper, total={170mm,257mm}, left=50mm, top=20mm, bottom=20mm, right=20mm}
+\geometry{a4paper, total={170mm,257mm}, left=50mm, top=60mm, bottom=20mm, right=20mm}
 
 %% Let's define some colours
 \definecolor{kansasblue}{HTML}{0051ba}
@@ -26,10 +26,18 @@
     }%
     % Logo
     \AtPageLowerLeft{%
-        \put(\LenToUnit{\dimexpr\paperwidth-207mm}, 26.2cm){%
+        \put(\LenToUnit{\dimexpr\paperwidth-140mm}, 24.2cm){%
             % For testing locally
-            %\color{kansasblue}\includegraphics[width=2.5cm]{_extensions/kansas/logos/KansasJayhawk.png}
-            \color{kansasblue}\includegraphics[width=2.5cm]{_extensions/bhelsel/kansas/logos/KansasJayhawk.png}
+            \color{kansasblue} \includegraphics[width=10cm]{_extensions/kansas/logos/KUADRCLogo.png}
+            %\color{kansasblue}\includegraphics[width=2.5cm]{_extensions/bhelsel/kansas/logos/KansasJayhawk.png}
+        }%
+    }%
+
+    \AtPageLowerLeft{%
+        \put(\LenToUnit{\dimexpr\paperwidth-207mm}, 25.2cm){%
+            % For testing locally
+            \color{kansasblue} \includegraphics[width=2.5cm]{_extensions/kansas/logos/KansasJayhawk.png}
+            %\color{kansasblue}\includegraphics[width=2.5cm]{_extensions/bhelsel/kansas/logos/KansasJayhawk.png}
         }%
     }%
 }
