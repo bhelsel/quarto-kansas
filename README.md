@@ -1,5 +1,5 @@
 <div style = "text-align: center; margin-top: 20px;">
-  <img src = "_extensions/kansas/logos/KUADRCLogo.jpg" style = "width: 25%; height = auto;">
+  <img src = "_extensions/kansas/logos/KUADRCLogo.jpg" style = "width: 50%; height = auto;">
 </div>
 
 # quarto-kansas
