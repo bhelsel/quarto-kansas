@@ -1,5 +1,6 @@
-
-<center><img src = "_extensions/kansas/logos/KUADRCLogo.jpg" style = "width: 50%; height = auto; margin-top: 50px;"></center>
+<div style="text-align:center">
+  <img src = "_extensions/kansas/logos/KUADRCLogo.jpg" style = "width: 50%; height = auto; margin-top: 50px;">
+</div>
 
 # quarto-kansas
 
