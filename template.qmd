@@ -13,18 +13,6 @@ author:
         - ref: kuadrc
     attributes:
         corresponding: true
-  - name: Lauren T. Ptomey
-    email: lptomey@kumc.edu
-    affiliations:
-        - ref: dpawm
-  - name: Amy Bodde
-    email: abodde@kumc.edu
-    affiliations:
-        - ref: dpawm
-  - name: Joseph R. Sherman
-    email: jsherman7@kumc.edu
-    affiliations:
-        - ref: dpawm
 affiliations:
   - id: kuadrc
     name: "University of Kansas Alzheimer's Disease Research Center"
@@ -33,13 +21,6 @@ affiliations:
     city: Fairway
     state: Kansas
     postal-code: 66205
-  - id: dpawm
-    name: Division of Physical Activity and Weight Management
-    department: Internal Medicine
-    address: 4125 Rainbow Blvd
-    city: Kansas City
-    state: Kansas
-    postal-code: 66103
 abstract: |
   "Quarto is a multi-language, next generation version of R Markdown from Posit,
   with many new features and capabilities. Like R Markdown, Quarto uses knitr to
