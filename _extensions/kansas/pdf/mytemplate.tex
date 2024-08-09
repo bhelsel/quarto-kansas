@@ -8,7 +8,7 @@
 \usepackage{titlesec}
 
 %% Set page size with a wider right margin
-\geometry{a4paper, total={170mm,257mm}, left=50mm, top=60mm, bottom=20mm, right=20mm}
+\geometry{a4paper, total={170mm,257mm}, top=50mm, bottom=20mm, left=50mm, right=20mm}
 
 %% Let's define some colours
 \definecolor{kansasblue}{HTML}{0051ba}
@@ -16,20 +16,26 @@
 \definecolor{highlight}{HTML}{800080}
 \definecolor{kansasred}{HTML}{e8000d}
 
+\AtBeginDocument{%
+    \AddToShipoutPicture*{%
+         % Logo
+        \AtPageLowerLeft{%
+            \put(\LenToUnit{\dimexpr\paperwidth-140mm}, 24.2cm){%
+            % For testing locally
+            \color{kansasblue} \includegraphics{_extensions/kansas/logos/KUADRCLogo.jpg}
+            %\color{kansasblue}\includegraphics{_extensions/bhelsel/kansas/logos/KUADRCLogo.jpg}
+            }%
+        }%
+    }
+}
+
 %% Let's add the border on the right hand side and the logo in the top right corner
 \AddToShipoutPicture{%
     % Right bar
+    %\restoregeometry
     \AtPageLowerLeft{%
         \put(\LenToUnit{\dimexpr\paperwidth-210mm}, 0){%
             \color{kansasblue}\rule{3cm}{\LenToUnit\paperheight}%
-        }%
-    }%
-    % Logo
-    \AtPageLowerLeft{%
-        \put(\LenToUnit{\dimexpr\paperwidth-140mm}, 24.2cm){%
-            % For testing locally
-            \color{kansasblue} \includegraphics[width=10cm]{_extensions/kansas/logos/KUADRCLogo.png}
-            %\color{kansasblue}\includegraphics[width=2.5cm]{_extensions/bhelsel/kansas/logos/KansasJayhawk.png}
         }%
     }%
 
