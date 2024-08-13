@@ -10,6 +10,7 @@ contributes:
     pdf:
       template-partials:
         - "pdf/title.tex"
+        - "pdf/before-body.tex"
       include-in-header:
         - "pdf/mytemplate.tex"
       include-before-body:

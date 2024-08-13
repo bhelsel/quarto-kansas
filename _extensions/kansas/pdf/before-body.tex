@@ -1,0 +1,18 @@
+$if(has-frontmatter)$
+\frontmatter
+$endif$
+$if(title)$
+$if(beamer)$
+\frame{\titlepage}
+$else$
+\maketitle
+$endif$
+$if(abstract)$
+\begin{abstract}
+$abstract$
+\end{abstract}
+$endif$
+$endif$
+\pagestyle{mystyle}
+\thispagestyle{mystyle}
+\newgeometry{a4paper, total={170mm,257mm}, top=20mm, bottom=20mm, left=50mm, right=20mm}
