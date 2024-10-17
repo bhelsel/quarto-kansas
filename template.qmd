@@ -6,6 +6,7 @@ format:
   kansas-docx: default
   kansas-html: default
   kansas-pptx: default
+  kansas-revealjs: default
 author:
   - name: Brian C. Helsel
     email: bhelsel@kumc.edu
