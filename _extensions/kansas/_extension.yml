@@ -27,3 +27,10 @@ contributes:
       code-block-bg: "#E6E6FA"
     pptx:
       reference-doc: "pptx/powerpoint-template.pptx"
+    revealjs:
+      slide-number: true
+      theme: revealjs/custom.scss
+      embed-resources: true
+      title-slide-attributes:
+        data-background-image: logos/KUMCTitleSlide.jpg
+        data-background-size: "cover"

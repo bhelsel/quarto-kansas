@@ -1,0 +1,46 @@
+/*-- scss:defaults --*/
+
+// fonts
+$font-family-sans-serif: "Arial" !default;
+$presentation-p-font-size: 3.77em !default;
+
+// headings
+$presentation-heading-font: "Arial" !default;
+$presentation-heading-color: #000000 !default;
+$presentation-h2-font-size: 1.1em !default;
+
+// colors
+$body-bg: #fff !default;
+$body-color: #000 !default;
+$link-color: #0051ba !default;
+$selection-bg: #ff5e99 !default;
+$input-panel-bg: rgba(233, 236, 239, 0.2) !default;
+
+
+/*-- scss:rules --*/
+
+li, p {
+  font-size: 0.75em;
+}
+
+#title-slide h1{
+  font-size: 0.85em;
+}
+
+#title-slide .quarto-title-author-name {
+  font-size: 0.8em;
+  padding-top: 50px;
+  font-weight: bold;
+}
+
+#title-slide .quarto-title-affiliation {
+  font-size: 0.8em;
+  padding-top: 15px;
+}
+
+.slide-background-content{
+  background-image: url('_extensions/bhelsel/kansas/logos/KUMCTitleContent.jpg');
+  background-size: 100% 100%;
+}
+
+
