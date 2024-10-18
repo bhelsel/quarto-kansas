@@ -27,6 +27,8 @@ contributes:
       code-block-bg: "#E6E6FA"
     pptx:
       reference-doc: "pptx/powerpoint-template.pptx"
+      filters:
+        - pptx/change-text.lua
     revealjs:
       slide-number: true
       theme: revealjs/custom.scss
