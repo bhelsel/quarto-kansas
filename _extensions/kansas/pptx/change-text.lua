@@ -7,7 +7,7 @@ end
 local function change_text_openxml_pptx(span, bold, italic, underline, fontsize, color, bg_color)
   local attrs = {}
 
-  if bold ~= nil then
+  if is_truthy(bold) then
     table.insert(attrs, 'b="1"')
   end
 

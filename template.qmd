@@ -60,3 +60,19 @@ x + y
 
 ```
 
+::: {.content-visible when-format="pptx"}
+
+## PowerPoint Format
+
+[Lua filters can be used to change the XML of the PowerPoint .pptx file when rendering with Pandoc. The lua filter is automatically included when rendering to .pptx.]{fontsize=20}
+
+- [Change Color]{color="#438381" bold="false" fontsize=20}
+- [Change Color with Bold Text]{color="#3862AE" .bold fontsize=20}
+- [Italic with Smaller Font Size]{.italic fontsize=16}
+- [Bold and Underline]{color="#512C7D" bold="true" underline="true" fontsize=20}
+
+[Bold and Italic can be used as a class (e.g., .bold, .italic) or set to any attribute other than "false" or "0" (lower case or quotation marks not necessary)]{fontsize=20}
+
+:::
+
+
