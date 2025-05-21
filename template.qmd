@@ -8,7 +8,10 @@ format:
   kansas-pptx: default
   kansas-revealjs: default
 author:
-  - name: Brian C. Helsel
+  - name: Brian C. Helsel, PhD
+  - role: Assistant Professor
+  - center: KU Alzheimer's Disease Research Center
+  - institution: Neurology | University of Kansas Medical Center
     email: bhelsel@kumc.edu
     affiliations: 
         - ref: kuadrc

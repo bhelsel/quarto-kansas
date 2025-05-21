@@ -29,6 +29,7 @@ contributes:
       reference-doc: "pptx/powerpoint-template.pptx"
       filters:
         - pptx/change-text.lua
+        - pptx/title-slide.lua
     revealjs:
       slide-number: true
       theme: revealjs/custom.scss
